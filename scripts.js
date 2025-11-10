@@ -18,10 +18,3 @@ document.addEventListener('DOMContentLoaded', () => {
   // fill the year automatically
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
-
-  // Demo: open plugins button shows a quick alert (replace with real nav)
-  document.getElementById('openPlugins')?.addEventListener('click', (e)=>{
-    e.preventDefault();
-    alert('Open your plugin repository (hangar-style). Replace this with a real link.');
-  });
-});
